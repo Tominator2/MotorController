@@ -16,4 +16,4 @@ Reverse engineered Delphi code to control USB joystick rumble motors.
 
 Note that it uses the [HidController package](http://www.soft-gems.net/index.php/controls/human-interface-device-controller-suite) written by Robert Marquardt which you will need to install if you want to compile the project from the source.
 
-
+Download the executable for Windows: [MotorController.exe](https://github.com/Tominator2/MotorController/releases/download/v1.0/MotorController.exe) (458 KB)
