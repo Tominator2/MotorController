@@ -13,7 +13,7 @@ The code to control the motors can be found in [ControlPanel.pas](https://github
 
 I reverse engineered the commands to control the motors using the USB sniffing tool   [SnoopyPro](http://sourceforge.net/projects/usbsnoop/files/SnoopyPro/).  I plugged a joystick into the computer, started monitoring the USB data with SnoopyPro, and then exercised the rumble motors using the standard Windows game controller tool.
 
-When I examined the data being sent over USB it appeared that the single command `f3 00 00 00 00 00 00` was being sent (int the "down" direction) to stop the motor and that two commands were sent to start the motor: `51 00 fe 00 fe 00 00` followed by `fa fe 00 00 00 00 00`.  See a screenshot of the output below.
+When I examined the data being sent over USB it appeared that the single command `f3 00 00 00 00 00 00` was being sent (in the "down" direction) to stop the motor and that two commands were sent to start the motor: `51 00 fe 00 fe 00 00` followed by `fa fe 00 00 00 00 00`.  See a screenshot of the output below.
 
 ![snoopypro](https://cloud.githubusercontent.com/assets/4344677/8123091/c2edaea2-10ed-11e5-8ef4-c681b8753a72.png)
 
